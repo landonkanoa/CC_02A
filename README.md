@@ -1,0 +1,1 @@
+Added a read me to say everything is in the colsole for this assignment.
