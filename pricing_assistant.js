@@ -5,7 +5,7 @@ let discountRate = 0.05
 let salesTaxRate = 0.03
 let fixedMonthlyCost = 500
 
-let discountPrice = basePrice * (1 - discountRate).toFixed(2)
+let discountPrice = basePrice * (1 - discountRate)
 let finalPriceWithTax = discountPrice * (1 + salesTaxRate)
 let profitPerUnit = finalPriceWithTax - costPerUnit
 let breakEvenUnits = Math.ceil(fixedMonthlyCost / profitPerUnit)
